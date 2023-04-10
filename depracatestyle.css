@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 0;
+}
+
+.header, 
+.herobox,
+.infobox,
+.quotebox,
+.signupbox {
+    align-self: stretch;
+/*- remove these at end --*/
+    border-color: black;
+    border-style:solid;
+    flex-basis:200px;
+}
+
+.header {
+    background-color: #1F2937;
+    flex-basis: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.headerlogo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.headerlinks {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.hlink {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.herobox {
+    background-color: #1F2937;
+    flex-basis: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+.lefthero {
+    display: flex;
+    flex-direction: column;
+}
+
+.herotext{
+    font-size: 48px;
+    font-weight:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f9faf8;
+}
+
+.herosubtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.herobutton {
+    background-color: #3882f6;
+    color: white;
+    align-self: flex-start;
+    padding: 5px;
+    /* go back to flex cs exercieses to solve this */
+}
+
+.righthero {
+    background-color: grey;
+    padding: 80px;
+}
